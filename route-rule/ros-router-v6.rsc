@@ -7,6 +7,7 @@ add dst-address=14.204.0.0/15 action=lookup table=UNICOM
 add dst-address=27.0.128.0/22 action=lookup table=UNICOM
 add dst-address=27.8.0.0/13 action=lookup table=UNICOM
 add dst-address=27.36.0.0/14 action=lookup table=UNICOM
+add dst-address=27.40.0.0/13 action=lookup table=UNICOM
 add dst-address=27.50.128.0/17 action=lookup table=UNICOM
 add dst-address=27.54.192.0/18 action=lookup table=UNICOM
 add dst-address=27.98.224.0/19 action=lookup table=UNICOM
