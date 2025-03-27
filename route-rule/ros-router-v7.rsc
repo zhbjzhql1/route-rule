@@ -690,7 +690,6 @@ add dst-address=1.10.64.0/18 action=lookup table=CT
 add dst-address=1.48.0.0/15 action=lookup table=CT
 add dst-address=1.50.0.0/16 action=lookup table=CT
 add dst-address=1.68.0.0/14 action=lookup table=CT
-add dst-address=1.80.0.0/13 action=lookup table=CT
 add dst-address=1.180.0.0/14 action=lookup table=CT
 add dst-address=1.192.0.0/13 action=lookup table=CT
 add dst-address=1.202.0.0/15 action=lookup table=CT
