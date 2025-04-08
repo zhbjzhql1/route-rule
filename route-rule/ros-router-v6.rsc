@@ -44,6 +44,8 @@ add dst-address=43.227.104.0/22 action=lookup table=UNICOM
 add dst-address=43.229.168.0/21 action=lookup table=UNICOM
 add dst-address=43.229.176.0/21 action=lookup table=UNICOM
 add dst-address=43.229.236.0/22 action=lookup table=UNICOM
+add dst-address=43.230.224.0/20 action=lookup table=UNICOM
+add dst-address=43.231.136.0/22 action=lookup table=UNICOM
 add dst-address=43.239.120.0/22 action=lookup table=UNICOM
 add dst-address=43.240.0.0/22 action=lookup table=UNICOM
 add dst-address=43.240.72.0/22 action=lookup table=UNICOM
