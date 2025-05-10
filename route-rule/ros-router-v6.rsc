@@ -6,6 +6,7 @@ add dst-address=1.188.0.0/14 action=lookup table=UNICOM
 add dst-address=14.204.0.0/15 action=lookup table=UNICOM
 add dst-address=27.0.128.0/22 action=lookup table=UNICOM
 add dst-address=27.8.0.0/13 action=lookup table=UNICOM
+add dst-address=27.36.0.0/14 action=lookup table=UNICOM
 add dst-address=27.40.0.0/13 action=lookup table=UNICOM
 add dst-address=27.50.128.0/17 action=lookup table=UNICOM
 add dst-address=27.54.192.0/18 action=lookup table=UNICOM
@@ -715,6 +716,7 @@ add dst-address=27.54.152.0/21 action=lookup table=CT
 add dst-address=27.113.128.0/18 action=lookup table=CT
 add dst-address=27.121.72.0/21 action=lookup table=CT
 add dst-address=27.121.120.0/21 action=lookup table=CT
+add dst-address=27.128.0.0/15 action=lookup table=CT
 add dst-address=27.148.0.0/14 action=lookup table=CT
 add dst-address=27.152.0.0/13 action=lookup table=CT
 add dst-address=27.184.0.0/13 action=lookup table=CT
