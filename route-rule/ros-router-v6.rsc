@@ -653,6 +653,7 @@ add dst-address=223.27.184.0/22 action=lookup table=UNICOM
 add dst-address=223.166.0.0/15 action=lookup table=UNICOM
 add dst-address=1.0.1.0/24 action=lookup table=CT
 add dst-address=1.0.2.0/23 action=lookup table=CT
+add dst-address=1.0.8.0/21 action=lookup table=CT
 add dst-address=1.0.32.0/19 action=lookup table=CT
 add dst-address=1.1.0.0/24 action=lookup table=CT
 add dst-address=1.1.2.0/23 action=lookup table=CT
