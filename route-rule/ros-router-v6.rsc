@@ -1,6 +1,5 @@
 :foreach i in=[/ip route rule find ] do=[/ip route rule remove $i]
 /ip route rule
-add dst-address=1.24.0.0/13 action=lookup table=UNICOM
 add dst-address=1.56.0.0/13 action=lookup table=UNICOM
 add dst-address=1.188.0.0/14 action=lookup table=UNICOM
 add dst-address=14.204.0.0/15 action=lookup table=UNICOM
