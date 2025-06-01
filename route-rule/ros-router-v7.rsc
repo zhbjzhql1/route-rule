@@ -1,7 +1,6 @@
 :foreach i in=[/routing rule find ] do=[/routing rule remove $i]
 /routing rule
 add dst-address=1.24.0.0/13 action=lookup table=UNICOM
-add dst-address=1.56.0.0/13 action=lookup table=UNICOM
 add dst-address=1.188.0.0/14 action=lookup table=UNICOM
 add dst-address=14.204.0.0/15 action=lookup table=UNICOM
 add dst-address=27.0.128.0/22 action=lookup table=UNICOM
@@ -15,6 +14,7 @@ add dst-address=27.112.0.0/18 action=lookup table=UNICOM
 add dst-address=27.115.0.0/17 action=lookup table=UNICOM
 add dst-address=27.192.0.0/11 action=lookup table=UNICOM
 add dst-address=36.32.0.0/14 action=lookup table=UNICOM
+add dst-address=36.248.0.0/14 action=lookup table=UNICOM
 add dst-address=39.64.0.0/11 action=lookup table=UNICOM
 add dst-address=42.4.0.0/14 action=lookup table=UNICOM
 add dst-address=42.48.0.0/15 action=lookup table=UNICOM
@@ -702,6 +702,7 @@ add dst-address=14.16.0.0/12 action=lookup table=CT
 add dst-address=14.102.128.0/22 action=lookup table=CT
 add dst-address=14.104.0.0/13 action=lookup table=CT
 add dst-address=14.112.0.0/12 action=lookup table=CT
+add dst-address=14.134.0.0/15 action=lookup table=CT
 add dst-address=14.144.0.0/12 action=lookup table=CT
 add dst-address=14.192.76.0/22 action=lookup table=CT
 add dst-address=14.208.0.0/12 action=lookup table=CT
