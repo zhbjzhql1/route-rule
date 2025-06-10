@@ -358,7 +358,6 @@ add dst-address=103.252.248.0/22 action=lookup table=UNICOM
 add dst-address=103.253.60.0/22 action=lookup table=UNICOM
 add dst-address=103.255.88.0/22 action=lookup table=UNICOM
 add dst-address=103.255.200.0/22 action=lookup table=UNICOM
-add dst-address=106.48.0.0/15 action=lookup table=UNICOM
 add dst-address=106.74.0.0/16 action=lookup table=UNICOM
 add dst-address=110.6.0.0/15 action=lookup table=UNICOM
 add dst-address=110.16.0.0/14 action=lookup table=UNICOM
