@@ -903,7 +903,7 @@ add dst-address=103.22.104.0/21 action=lookup table=CT
 add dst-address=103.22.112.0/20 action=lookup table=CT
 add dst-address=103.29.128.0/22 action=lookup table=CT
 add dst-address=103.47.108.0/22 action=lookup table=CT
-add dst-address=103.48.152.0/21 action=lookup table=CT
+add dst-address=103.48.152.0/22 action=lookup table=CT
 add dst-address=103.54.240.0/22 action=lookup table=CT
 add dst-address=103.59.168.0/23 action=lookup table=CT
 add dst-address=103.72.112.0/22 action=lookup table=CT
